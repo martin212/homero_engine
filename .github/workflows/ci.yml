@@ -1,0 +1,26 @@
+name: Engine CI
+
+on:
+  pull_request:
+    branches: [ develop, master ]  # Run when a PR targets these branches
+  push:
+    branches: [ develop ]          # Also run when code is merged into develop
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest         # Linux is fastest and uses fewer "free minutes"
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Configure CMake
+      # We enable a "BUILD_TESTS" flag so we don't build tests in production
+      run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_ENGINE_TESTS=ON
+
+    - name: Build Engine
+      run: cmake --build build --config Release
+
+    - name: Run Unit Tests
+    # This runs all tests discovered by GTest
+      run: cd build && ctest --output-on-failure

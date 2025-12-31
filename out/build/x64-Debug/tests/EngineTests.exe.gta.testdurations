@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\WORKSPACE\homero_engine\out\build\x64-Debug\tests\EngineTests.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="Vector3Test.CreationAndEquality" Duration="1" />
+    <TestDuration Test="Vector3Test.IntAddition" Duration="1" />
+    <TestDuration Test="Vector3Test.IntSubtraction" Duration="1" />
+    <TestDuration Test="Vector3Test.IntMultiplication" Duration="1" />
+    <TestDuration Test="Vector3Test.IntDivision" Duration="1" />
+    <TestDuration Test="Vector3Test.IntDotProduct" Duration="1" />
+    <TestDuration Test="Vector3Test.IntCrossProduct" Duration="1" />
+    <TestDuration Test="Vector3Test.IntMagnitude" Duration="1" />
+    <TestDuration Test="Vector3Test.IntNormalize" Duration="1" />
+    <TestDuration Test="Vector3Test.FloatAddition" Duration="1" />
+    <TestDuration Test="Vector3Test.FloatSubtraction" Duration="1" />
+    <TestDuration Test="Vector3Test.FloatMultiplication" Duration="1" />
+    <TestDuration Test="Vector3Test.FloatDivision" Duration="1" />
+    <TestDuration Test="Vector3Test.FloatDotProduct" Duration="1" />
+    <TestDuration Test="Vector3Test.FloatCrossProduct" Duration="1" />
+    <TestDuration Test="Vector3Test.FloatMagnitude" Duration="1" />
+    <TestDuration Test="Vector3Test.FloatNormalize" Duration="1" />
+    <TestDuration Test="Vector3Test.DoubleAddition" Duration="1" />
+    <TestDuration Test="Vector3Test.DoubleSubtraction" Duration="1" />
+    <TestDuration Test="Vector3Test.DoubleMultiplication" Duration="1" />
+    <TestDuration Test="Vector3Test.DoubleDivision" Duration="1" />
+    <TestDuration Test="Vector3Test.DoubleDotProduct" Duration="1" />
+    <TestDuration Test="Vector3Test.DoubleCrossProduct" Duration="1" />
+    <TestDuration Test="Vector3Test.DoubleMagnitude" Duration="1" />
+    <TestDuration Test="Vector3Test.DoubleNormalize" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

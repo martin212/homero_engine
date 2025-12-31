@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="25" failures="0" disabled="0" errors="0" time="0." timestamp="2025-12-31T11:16:27.982" name="AllTests">
+  <testsuite name="Vector3Test" tests="25" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2025-12-31T11:16:27.982">
+    <testcase name="CreationAndEquality" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="10" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="IntAddition" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="21" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="IntSubtraction" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="30" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="IntMultiplication" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="39" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="IntDivision" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="48" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="IntDotProduct" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="57" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="IntCrossProduct" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="66" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="IntMagnitude" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="75" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="IntNormalize" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="83" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="FloatAddition" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="94" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="FloatSubtraction" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="103" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="FloatMultiplication" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="112" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="FloatDivision" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="121" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="FloatDotProduct" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="130" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="FloatCrossProduct" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="139" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.982" classname="Vector3Test" />
+    <testcase name="FloatMagnitude" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="148" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.983" classname="Vector3Test" />
+    <testcase name="FloatNormalize" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="156" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.983" classname="Vector3Test" />
+    <testcase name="DoubleAddition" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="167" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.983" classname="Vector3Test" />
+    <testcase name="DoubleSubtraction" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="176" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.983" classname="Vector3Test" />
+    <testcase name="DoubleMultiplication" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="185" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.983" classname="Vector3Test" />
+    <testcase name="DoubleDivision" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="194" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.983" classname="Vector3Test" />
+    <testcase name="DoubleDotProduct" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="203" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.983" classname="Vector3Test" />
+    <testcase name="DoubleCrossProduct" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="212" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.983" classname="Vector3Test" />
+    <testcase name="DoubleMagnitude" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="221" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.983" classname="Vector3Test" />
+    <testcase name="DoubleNormalize" file="C:\WORKSPACE\homero_engine\tests\math\vector3_tests.cpp" line="229" status="run" result="completed" time="0." timestamp="2025-12-31T11:16:27.983" classname="Vector3Test" />
+  </testsuite>
+</testsuites>
