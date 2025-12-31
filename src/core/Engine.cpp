@@ -1,10 +1,16 @@
 #include "core/Engine.hpp"
 
+
 #include <iostream>
 
-namespace homero {
-    void placeholder()
+#include "core/Logger.hpp"
+
+
+namespace homero
+{
+    void Initialize()
     {
-        std::cout << "Engine Initialized" << std::endl;
+        Logger::Init("homero_engine.log");
+        Logger::Log(LogLevel::Info, "Homero Engine version {} started.", 0.1);
     }
-}
+} // namespace homero

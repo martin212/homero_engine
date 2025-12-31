@@ -1,0 +1,5 @@
+if(EXISTS "C:/WORKSPACE/homero_engine/out/build/x64-Debug/tests/EngineTests[1]_tests.cmake")
+  include("C:/WORKSPACE/homero_engine/out/build/x64-Debug/tests/EngineTests[1]_tests.cmake")
+else()
+  add_test(EngineTests_NOT_BUILT EngineTests_NOT_BUILT)
+endif()
