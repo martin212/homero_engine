@@ -49,6 +49,15 @@ cmake_ninja_workdir = C$:\WORKSPACE\homero_engine\out\build\x64-Debug\
 
 build cmake_object_order_depends_target_EngineLib: phony || .
 
+build CMakeFiles\EngineLib.dir\src\core\Engine.cpp.obj: CXX_COMPILER__EngineLib_unscanned_Debug C$:\WORKSPACE\homero_engine\src\core\Engine.cpp || cmake_object_order_depends_target_EngineLib
+  CONFIG = Debug
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
+  INCLUDES = -IC:\WORKSPACE\homero_engine\include
+  OBJECT_DIR = CMakeFiles\EngineLib.dir
+  OBJECT_FILE_DIR = CMakeFiles\EngineLib.dir\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\EngineLib.dir\EngineLib.pdb
+  TARGET_PDB = EngineLib.pdb
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target EngineLib
@@ -57,7 +66,7 @@ build cmake_object_order_depends_target_EngineLib: phony || .
 #############################################
 # Link the static library EngineLib.lib
 
-build EngineLib.lib: CXX_STATIC_LIBRARY_LINKER__EngineLib_Debug
+build EngineLib.lib: CXX_STATIC_LIBRARY_LINKER__EngineLib_Debug CMakeFiles\EngineLib.dir\src\core\Engine.cpp.obj
   CONFIG = Debug
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64
